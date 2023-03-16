@@ -2,8 +2,8 @@
 
 
 /**
- * main - print
- * print:"all size". 
+ * main - print:"we'll print,
+ * all size of all type". 
  * Return: Always 0.
  */
 
