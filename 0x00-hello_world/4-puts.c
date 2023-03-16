@@ -4,7 +4,7 @@
 /**
  * main - print :"Programming is like
  * building, a multilingual puzzle"
- * return : this'll return 0
+ * return : Always 0
  */
 
 int main(void)
