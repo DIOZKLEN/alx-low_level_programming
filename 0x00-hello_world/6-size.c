@@ -3,7 +3,7 @@
 
 /**
  * main - print:"we'll print,
- * all size of all type". 
+ * all size of alltype" 
  * Return: Always 0.
  */
 
