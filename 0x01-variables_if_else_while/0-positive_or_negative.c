@@ -1,12 +1,14 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+
+#include <time.h>
+
+#include <stdio.h>
 
 /**
  * main - if fonction
  * "write fonction that return
  * aleatory number"
- * Return: Always 0.
+ * Return: Always (Success).
  */
 
 
