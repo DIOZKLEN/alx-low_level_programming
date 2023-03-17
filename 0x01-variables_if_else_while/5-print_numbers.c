@@ -12,7 +12,7 @@ int main(void)
 	char dio;
 
 	for (dio = '0'; dio <= '9'; dio++)
-	putchar(dio)
-	putchar('\n')
+	putchar(dio);
+	putchar('\n');
 	return (0);
 }
