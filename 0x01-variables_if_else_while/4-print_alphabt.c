@@ -9,16 +9,12 @@
 int main(void)
 
 {
-	char dio, zy, nho;
-	for (dio = 'a'; dio < 'e'; dio++)
-	putchar(dio);
-
-	for (zy = 'f'; zy < 'q'; zy++)
-	putchar(zy);
-
-	for (nho = 'r'; nho <= 'z'; nho++)
-	putchar(nho);
+	char dio;
+	for (dio = 'a'; dio < 'z'; dio++)
+	{
+		if (dio != 'e' && dio != 'q')
+		putchar(dio);
+	}
 	putchar('\n');
-
 	return (0);
 }
