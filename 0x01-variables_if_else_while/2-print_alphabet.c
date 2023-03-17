@@ -12,8 +12,8 @@ int main(void)
 	char dio;
 
 	for (dio = 'a'; dio <= 'z'; dio++)
-		putchar(dio);
-		putchar('\n');
+	putchar(dio);
+	putchar('\n');
 	return (0);
 
 }
