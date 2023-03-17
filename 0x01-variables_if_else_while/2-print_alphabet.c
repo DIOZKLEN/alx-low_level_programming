@@ -13,7 +13,8 @@ int main(void)
 
 	for (dio = 'a'; dio <= 'z'; ++dio)
 	{
-		putchar(str(dio)+"\n");
+		putchar(dio);
+		putchar('\n');
 	}
 	return (0);
 
