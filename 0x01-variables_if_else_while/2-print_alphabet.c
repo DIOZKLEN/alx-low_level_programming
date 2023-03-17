@@ -14,6 +14,7 @@ int main(void)
 	for (dio = 'a'; dio <= 'z'; dio++)
 	{
 		putchar(dio);
+		putchar('\n');
 	}
 	return (0);
 
