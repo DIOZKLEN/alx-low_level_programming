@@ -11,7 +11,7 @@ int main(void)
 {
 	int dio;
 
-	for (dio = '1'; dio <= '9'; dio++)
+	for (dio = '0'; dio <= '9'; dio++)
 	putchar(dio);
 	putchar('\n');
 	return (0);
