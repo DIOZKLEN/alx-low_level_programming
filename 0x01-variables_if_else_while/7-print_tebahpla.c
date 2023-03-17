@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - for loop 
+ * main - for loop
  * reverse alphabet
  * Return: 0.
  */
