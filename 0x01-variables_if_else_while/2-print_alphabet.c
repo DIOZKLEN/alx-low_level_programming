@@ -6,10 +6,11 @@
  * Return: 0.
  */
 
-int main()
+int main(void)
 
 {
 	char dio;
+
 	for (dio = 'a'; dio <= 'z'; ++dio)
 	{
 		putchar(dio);
