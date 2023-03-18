@@ -12,7 +12,7 @@ int main(void)
 	int dio, es, vir;
 
 	es = ' ';
-	vir= ',';
+	vir = ',';
 
 	for (dio = '0'; dio <= '9'; dio++)
 	{
