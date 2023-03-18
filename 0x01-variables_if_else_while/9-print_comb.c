@@ -9,7 +9,7 @@
 int main(void)
 
 {
-	char dio, es, vir;
+	int dio, es, vir;
 
 	es = ' ';
 	vir= ',';
