@@ -15,17 +15,15 @@ int main(void)
 	vir= ',';
 
 	for (dio = '0'; dio <= '9'; dio++)
-	{	if (dio != '9')
+	{
+		putchar(dio);
+		if (dio != '9')
 		{
-			putchar(dio);
 			putchar(vir);
 			putchar(es);
 		}
-		else
-		{
-			putchar(dio);
-		}
 	}
+	putchar('\n');
 	return (0);
 }
 
