@@ -2,6 +2,7 @@
 
 /**
  * _abs - get absolute value
+ * @n: variable absolute
  * Return: success
  */
 
