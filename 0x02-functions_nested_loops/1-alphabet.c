@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - print alphabet another
- * void
+ * main - print: alphabet another
+ * void with putchar
  * Return: Success
  */
 
