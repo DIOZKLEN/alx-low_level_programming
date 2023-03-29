@@ -9,7 +9,7 @@
 void print_rev(char *s)
 
 {
-	int dio;
+	int dio = 0;
 
 	while (s[dio] != '\0')
 	{
