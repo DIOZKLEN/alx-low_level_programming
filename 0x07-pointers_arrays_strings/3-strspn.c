@@ -11,7 +11,9 @@
 unsigned int _strspn(char *s, char *accept)
 
 {
-	unsigned int i, j, count = 0, check;
+	unsigned int i, j, count, check;
+
+	count = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
