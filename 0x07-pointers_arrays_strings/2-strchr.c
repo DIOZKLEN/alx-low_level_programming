@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strchr - return pointer to the 
+ * _strchr - return pointer to the
  * first occurence of character
  * @s: pointer
  * @c: character
@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 {
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
 		{
