@@ -5,7 +5,7 @@
  * initial segment
  * @s: pointer
  * @accept: pointer
- * Return: success
+ * Return: Always 0 (Success)
  */
 
 unsigned int _strspn(char *s, char *accept)
