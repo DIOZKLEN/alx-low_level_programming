@@ -9,12 +9,13 @@
 int _strlen_recursion(char *s)
 
 {
-	int count;
-
-	while (*s++)
+	if (*s != '\0')
 	{
-		count++;
-		_strlen_recursion(s);
+		s++;
+		return (_strlen_recursion(s) + 1);
 	}
-	return (count);
+	else
+	{
+		return (0);
+	}
 }
