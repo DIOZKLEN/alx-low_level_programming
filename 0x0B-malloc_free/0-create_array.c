@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * *create_array - create array of char
+ * create_array - create array of char
  * @size: input
  * @c: character
  * Return: NULL if size = 0, SUCCESS or NULL if that fail
