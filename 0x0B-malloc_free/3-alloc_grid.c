@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-/*
+/**
  * alloc_grid - .....
  * @widht: one dimension
  * @height: another dimension
