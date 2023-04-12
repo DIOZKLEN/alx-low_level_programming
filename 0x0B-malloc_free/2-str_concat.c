@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * str_concat - returned pointer should 
+ * str_concat - returned pointer should
  * point to newly allocated space
  * @s1: input
  * @s2: input
@@ -49,5 +49,4 @@ char *str_concat(char *s1, char *s2)
 	}
 	s[k] = '\0';
 	return (s);
-		
 }
