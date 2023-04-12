@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - .....
- * @widht: one dimension
- * @height: another dimension
+ * alloc_grid - return a pointer to a 2 dimensional
+ * array
+ * @width: one dim
+ * @height: another dim
  * Return: success
  */
 
