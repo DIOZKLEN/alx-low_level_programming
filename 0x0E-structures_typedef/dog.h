@@ -1,5 +1,6 @@
 #ifdef _HEADER_
 #define _HEADER_
+#include <stdio.h>
 
 /**
  * struct dog - creat my first struct
