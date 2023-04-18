@@ -4,6 +4,7 @@
 /**
  * print_dog - print struct dog
  * @d: struct
+ * Return: NULL
  */
 
 void print_dog(struct dog *d)
