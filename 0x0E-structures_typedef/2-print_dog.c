@@ -2,10 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_dog - print struct dog
- * @d: struct
- * 
- * Description: Longer description
+ * print_dog - print a struct dog
+ * @d: struct dog to print
  */
 
 void print_dog(struct dog *d)
