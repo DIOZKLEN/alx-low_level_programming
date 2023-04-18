@@ -1,8 +1,9 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * print_dog - print a struct dog
+ * print_dog - prints a struct dog
  * @d: struct dog to print
  */
 
