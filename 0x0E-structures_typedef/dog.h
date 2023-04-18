@@ -1,5 +1,3 @@
-#ifdef _HEADER_
-#define _HEADER_
 #include <stdio.h>
 
 /**
@@ -17,4 +15,10 @@ struct dog
 	char *owner;
 };
 
-#endif
+/**
+ * dog_t - typedef for struct dog
+ */
+
+typedef struct dog dog_t;
+
+void *new_dog(char *name,float age, char *owner);
