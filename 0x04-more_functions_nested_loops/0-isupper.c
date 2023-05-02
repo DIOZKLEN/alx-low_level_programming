@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - if condition when 
+ * _isupper - if condition when
  * isupper return 1 else 0
  * @c: char to check
  * Return: Success
