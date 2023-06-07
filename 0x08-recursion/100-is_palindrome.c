@@ -1,30 +1,47 @@
-/**
- * file: 100-is_palindrome
- * Auth: DIOZKLEN
- */
-
-
 #include "main.h"
 
-int find_strlen(char *s);
-int check_palindrome(char *s, int len, int index);
-int is_palindrome(char *s);
-
 /**
- * find_strlen - Return len of string
- * @s: the string
- *
- * Return: len of str
+ * _strlen_recursion - length of string
+ * @s: string
+ * Return: success
  */
 
-int find_strlen(char *s)
+int _strlen_recursion(char *s)
 {
-	int len = 0;
+	if (*s == '\0')
+		return (0);
+	else
+		return (1 + _strlen_recursion(s + 1));
+}
 
-	if (*(s + len))
+/**
+ * comparator - compare each char string
+ * @s: string
+ * @n1: min iterative
+ * @n2: max ierative
+ * Return: success
+ */
+
+int comparator(char *s, int n1, int n2)
+{
+	if (*(s + n1) == *(s + n2))
 	{
-		len++;
-		len += find_strlen(s + len);
+		if (n1 == n2 || n1 == n2 + 1)
+			return (1);
+		return (0 + comparator(s, n1 + 1, n2 - 1));
 	}
-	return (len);
+	return (0);
+}
+
+/**
+ * is_palindrome - check if str is palindrome
+ * @s: string
+ * Return: 1 if is palindrome else return 0
+ */
+
+int is_palindrome(char *s)
+{
+	if (*s == '\0')
+		return (1);
+	return (comparator(s, 0, _strlen_recursion(s) - 1));
 }
