@@ -3,8 +3,6 @@
 /**
  * print_binary - print binary representation of a number
  * @n: num whom been converted
- *
- * Return: Success
  */
 
 void print_binary(unsigned long int n)
