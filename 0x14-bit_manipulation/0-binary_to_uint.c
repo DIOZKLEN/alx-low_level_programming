@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 
-/*
+/**
  * binary_to_unit - convert binary to unsigned int
- * b: char
+ * @b: char
  *
  * Return: Success or 0
  */
